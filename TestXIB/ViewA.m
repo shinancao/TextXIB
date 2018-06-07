@@ -33,7 +33,7 @@
     [_titleLbl mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.mas_top).offset(70);
     }];
-    
+    _titleLbl.tag = 2;
     _boxView = [[UIView alloc] initWithFrame:CGRectZero];
     [self addSubview:_boxView];
     [_boxView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -60,6 +60,7 @@
         make.width.mas_equalTo(240);
         make.height.mas_equalTo(128);
     }];
+
 }
 
 @end

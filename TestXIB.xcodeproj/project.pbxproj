@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1608C9D020C7B13500CD068A /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1608C9CF20C7B13500CD068A /* TestView.xib */; };
+		1608C9D520C7CA8800CD068A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608C9D420C7CA8800CD068A /* TestView.m */; };
+		1608C9D720C7CDC400CD068A /* TextLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1608C9D620C7CDC400CD068A /* TextLabel.xib */; };
+		1608C9DA20C7D0E500CD068A /* TestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608C9D920C7D0E500CD068A /* TestLabel.m */; };
+		1608C9DC20C7E59900CD068A /* TestUIImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1608C9DB20C7E59900CD068A /* TestUIImageView.xib */; };
+		1608C9DF20C7E5AE00CD068A /* TestImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608C9DE20C7E5AE00CD068A /* TestImageView.m */; };
+		1608C9F320C7EEB500CD068A /* TestButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1608C9F220C7EEB500CD068A /* TestButton.xib */; };
+		1608C9F620C7EECE00CD068A /* TestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608C9F520C7EECE00CD068A /* TestButton.m */; };
+		1608C9F920C7EF7B00CD068A /* TestControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608C9F820C7EF7B00CD068A /* TestControl.m */; };
+		1608C9FB20C7EF8A00CD068A /* TestControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1608C9FA20C7EF8A00CD068A /* TestControl.xib */; };
 		3DD1D713B6F7FFFBB2BE1DD7 /* libPods-TestXIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E3FE7D2EB89B74E67962AA /* libPods-TestXIB.a */; };
 		C0F2A0DF20AC76B30014ADAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F2A0D520AC76B30014ADAC /* AppDelegate.m */; };
 		C0F2A0E020AC76B30014ADAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F2A0D620AC76B30014ADAC /* Assets.xcassets */; };
@@ -21,6 +31,21 @@
 
 /* Begin PBXFileReference section */
 		039F92D26E8CF2B35FAA0748 /* Pods-TestXIB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXIB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestXIB/Pods-TestXIB.debug.xcconfig"; sourceTree = "<group>"; };
+		1608C9CF20C7B13500CD068A /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		1608C9D320C7CA8800CD068A /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		1608C9D420C7CA8800CD068A /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		1608C9D620C7CDC400CD068A /* TextLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextLabel.xib; sourceTree = "<group>"; };
+		1608C9D820C7D0E500CD068A /* TestLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLabel.h; sourceTree = "<group>"; };
+		1608C9D920C7D0E500CD068A /* TestLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLabel.m; sourceTree = "<group>"; };
+		1608C9DB20C7E59900CD068A /* TestUIImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestUIImageView.xib; sourceTree = "<group>"; };
+		1608C9DD20C7E5AE00CD068A /* TestImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestImageView.h; sourceTree = "<group>"; };
+		1608C9DE20C7E5AE00CD068A /* TestImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestImageView.m; sourceTree = "<group>"; };
+		1608C9F220C7EEB500CD068A /* TestButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestButton.xib; sourceTree = "<group>"; };
+		1608C9F420C7EECE00CD068A /* TestButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestButton.h; sourceTree = "<group>"; };
+		1608C9F520C7EECE00CD068A /* TestButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestButton.m; sourceTree = "<group>"; };
+		1608C9F720C7EF7B00CD068A /* TestControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestControl.h; sourceTree = "<group>"; };
+		1608C9F820C7EF7B00CD068A /* TestControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestControl.m; sourceTree = "<group>"; };
+		1608C9FA20C7EF8A00CD068A /* TestControl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestControl.xib; sourceTree = "<group>"; };
 		504E6C57AD8FA5D8D3672030 /* Pods-TestXIB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXIB.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestXIB/Pods-TestXIB.release.xcconfig"; sourceTree = "<group>"; };
 		C0F2A096209EF2910014ADAC /* TestXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F2A0D420AC76B30014ADAC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +125,21 @@
 				C0F2A0E620AC76C50014ADAC /* ViewA.xib */,
 				C0F2A0EB20B1998A0014ADAC /* ViewA.h */,
 				C0F2A0EC20B1998A0014ADAC /* ViewA.m */,
+				1608C9CF20C7B13500CD068A /* TestView.xib */,
+				1608C9D320C7CA8800CD068A /* TestView.h */,
+				1608C9D420C7CA8800CD068A /* TestView.m */,
+				1608C9D620C7CDC400CD068A /* TextLabel.xib */,
+				1608C9D820C7D0E500CD068A /* TestLabel.h */,
+				1608C9D920C7D0E500CD068A /* TestLabel.m */,
+				1608C9DB20C7E59900CD068A /* TestUIImageView.xib */,
+				1608C9DD20C7E5AE00CD068A /* TestImageView.h */,
+				1608C9DE20C7E5AE00CD068A /* TestImageView.m */,
+				1608C9F220C7EEB500CD068A /* TestButton.xib */,
+				1608C9F420C7EECE00CD068A /* TestButton.h */,
+				1608C9F520C7EECE00CD068A /* TestButton.m */,
+				1608C9F720C7EF7B00CD068A /* TestControl.h */,
+				1608C9F820C7EF7B00CD068A /* TestControl.m */,
+				1608C9FA20C7EF8A00CD068A /* TestControl.xib */,
 			);
 			path = TestXIB;
 			sourceTree = "<group>";
@@ -165,11 +205,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1608C9DC20C7E59900CD068A /* TestUIImageView.xib in Resources */,
+				1608C9F320C7EEB500CD068A /* TestButton.xib in Resources */,
+				1608C9D020C7B13500CD068A /* TestView.xib in Resources */,
 				C0F2A0E320AC76B30014ADAC /* Info.plist in Resources */,
+				1608C9D720C7CDC400CD068A /* TextLabel.xib in Resources */,
 				C0F2A0E220AC76B30014ADAC /* Main.storyboard in Resources */,
 				C0F2A0E020AC76B30014ADAC /* Assets.xcassets in Resources */,
 				C0F2A0E720AC76C50014ADAC /* ViewA.xib in Resources */,
 				C0F2A0E120AC76B30014ADAC /* LaunchScreen.storyboard in Resources */,
+				1608C9FB20C7EF8A00CD068A /* TestControl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1608C9DA20C7D0E500CD068A /* TestLabel.m in Sources */,
 				C0F2A0E520AC76B30014ADAC /* ViewController.m in Sources */,
 				C0F2A0E420AC76B30014ADAC /* main.m in Sources */,
+				1608C9F620C7EECE00CD068A /* TestButton.m in Sources */,
+				1608C9DF20C7E5AE00CD068A /* TestImageView.m in Sources */,
+				1608C9F920C7EF7B00CD068A /* TestControl.m in Sources */,
+				1608C9D520C7CA8800CD068A /* TestView.m in Sources */,
 				C0F2A0ED20B1998A0014ADAC /* ViewA.m in Sources */,
 				C0F2A0DF20AC76B30014ADAC /* AppDelegate.m in Sources */,
 			);
